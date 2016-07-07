@@ -1,3 +1,17 @@
+* {
+	box-sizing:border-box;
+}
+
 body {
-	background:black;
+	align-items:center;
+	background:whitesmoke;
+	display:flex;
+}
+
+.login-wrapper {
+	width:320px;
+
+	input, button {
+		width:100%;
+	}
 }
